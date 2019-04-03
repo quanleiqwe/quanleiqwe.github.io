@@ -1,8 +1,8 @@
-source 'https://rubygems.org'
+# A sample Gemfile
+source "https://rubygems.org"
+gemspec
 
-gem 'json', github: 'flori/json', branch: 'v1.8'
-gem 'rough'
+gem 'jekyll'
 gem 'jekyll-paginate'
-gem 'jekyll-geo-pattern'
 gem 'kramdown'
-gem 'jekyll-github-metadata'
+gem 'pygments.rb'
